@@ -48,13 +48,7 @@ O projeto tem a seguinte estrutura:
 
 ```
 DiaStrategy.java ← Interface Strategy: contrato de executar() e getPrioridade()
-[SegundaStrategy.java - DomingoStrategy.java] ← Estratégias concretas — uma para cada dia da semana 
-TercaStrategy.java ← Estratégia concreta — terça-feira  (ALTA)
-QuartaStrategy.java ← Estratégia concreta — quarta-feira (MÉDIA)
-QuintaStrategy.java ← Estratégia concreta — quinta-feira (MÉDIA)
-SextaStrategy.java ← Estratégia concreta — sexta-feira  (MÉDIA)
-SabadoStrategy.java ← Estratégia concreta — sábado       (BAIXA)
-DomingoStrategy.java ← Estratégia concreta — domingo      (BAIXA)
+[SegundaStrategy.java - DomingoStrategy.java] ← 7 Estratégias concretas — uma para cada dia da semana 
 NullDiaStrategy.java ← Null Object: estratégia segura para dia inválido/ausente
 DiaStrategyFactory.java ← Factory Method: cria a estratégia correta pelo nome do dia
 Main.java ← Ponto de entrada, executa as simulações
